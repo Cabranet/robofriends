@@ -1,15 +1,15 @@
 export const robots = [
     {
       id: 1,
-      name: 'Tom Coleman',
-      username: 'Coleman',
+      name: 'Tom The Bomb',
+      username: 'TomBomb',
       email: 'tom@coleman.co.uk'
     },
     {
       id: 2,
-      name: 'Jane Evans',
-      username: 'Evans',
-      email: 'jane@surfspain.co.uk'
+      name: 'Amaya Coleman-Evans',
+      username: 'Amaya',
+      email: 'amaya@surfspain.co.uk'
     },
     {
       id: 3,
