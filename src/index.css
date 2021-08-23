@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 8vmin);
+  color: rgb(247, 223, 15);
+  line-height: 10px;
+  font-weight: 900;
+}
