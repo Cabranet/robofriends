@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'tachyons';
-import CardList from './CardList.js';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <CardList />
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

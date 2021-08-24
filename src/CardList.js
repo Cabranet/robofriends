@@ -1,14 +1,24 @@
 import React from 'react';
-import { robots } from './robots.js';
-import Card from './Card'
 
-const CardList = () => {
+const Card = ({name, email, id}) => {
+    return (
+        <div className='bg-light-green dib br4 pa4 ma2 grow bw2 shadow-3'>
+            <img alt='robots' src={`https://robohash.org/${id}?200x200}`}/>
+            <div>
+                <h2>{name}</h2>
+                <p>{email}</p>
+            </div>
+        </div>
+    );
+}
+
+const CardList = ({ robots }) => {
     const cardComponent = robots.map((user, i) => {
         return (
-            <Card 
+            <Card
+                key={i}
                 id={robots[i].id}
                 name={robots[i].name}
-                username={robots[i].username}
                 email={robots[i].email}
             />
         )
